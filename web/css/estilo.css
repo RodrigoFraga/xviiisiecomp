@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.parallax-container {
+    height: 200px
+}
+
+.uppercase {
+    text-transform: uppercase
+}
+
+.redes-footer ul li {
+    display: inline-flex;
+
+}
+
+.redes-footer ul li a {
+    border: solid 3px #B71C1C;
+    padding: 5px;
+}
+
+.redes-footer ul li a:hover {
+    border-color: #ffffff;
+}
+
+.citacao-white:after, .citacao-white:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #ffffff;
+    margin: 8px auto;
+}
+
+.citacao-red:after, .citacao-red:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #B71C1C;
+    margin: 8px auto;
+}
+
+h5:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #B71C1C;
+    margin: 10px 0;
+}
+
+h4:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #B71C1C;
+    margin: 10px auto;
+}
+
+.da-img {
+    background: url("../img/da-hoper.png") no-repeat center;
+    background-size: cover;
+    height: 496px;
+}
+.da-content{
+    margin: 150px auto;
+}
